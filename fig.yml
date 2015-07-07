@@ -5,8 +5,8 @@ web:
   links:
     - redis
   ports:
-    - "3000:3000"
-  command: bundle exec rails server -b 0.0.0.0
+    - "8080:8080"
+  command: unicorn_rails
 worker:
   build: .
   volumes:
