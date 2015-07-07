@@ -1,0 +1,18 @@
+web:
+  build: .
+  volumes:
+    - .:/wappa_api
+  links:
+    - redis
+  ports:
+    - "3000:3000"
+  command: bundle exec rails server -b 0.0.0.0
+worker:
+  build: .
+  volumes:
+    - .:/wappa_api
+  links:
+    - redis
+  command: bundle exec sidekiq -e production -L log/sidekiq.log
+redis:
+  image: redis
