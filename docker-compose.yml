@@ -1,0 +1,18 @@
+web:
+  build: .
+  volumes:
+    - .:/wappa_api
+  links:
+    - redis
+  ports:
+    - "8080:8080"
+  command: unicorn_rails
+worker:
+  build: .
+  volumes:
+    - .:/wappa_api
+  links:
+    - redis
+  command: bundle exec sidekiq -e production -L log/sidekiq.log
+redis:
+  image: redis
