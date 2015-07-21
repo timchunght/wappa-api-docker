@@ -1,0 +1,856 @@
+I, [2015-07-05T00:08:24.102313 #13490]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:08:24 -0700
+F, [2015-07-05T00:08:24.125565 #13490] FATAL -- : 
+ActiveRecord::NoDatabaseError (FATAL:  role "wappa_api" does not exist
+Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:898:in `rescue in connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-07-05T00:08:25.827649 #13490]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:08:25 -0700
+F, [2015-07-05T00:08:25.833605 #13490] FATAL -- : 
+ActiveRecord::NoDatabaseError (FATAL:  role "wappa_api" does not exist
+Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:898:in `rescue in connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-07-05T00:08:37.720634 #13490]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:08:37 -0700
+F, [2015-07-05T00:08:37.733866 #13490] FATAL -- : 
+ActiveRecord::NoDatabaseError (FATAL:  role "wappa_api" does not exist
+Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:898:in `rescue in connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-07-05T00:09:27.164610 #13529]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:09:27 -0700
+F, [2015-07-05T00:09:27.187716 #13529] FATAL -- : 
+ActiveRecord::NoDatabaseError (FATAL:  role "wappa_api" does not exist
+Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:898:in `rescue in connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-07-05T00:09:28.178271 #13529]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:09:28 -0700
+F, [2015-07-05T00:09:28.186533 #13529] FATAL -- : 
+ActiveRecord::NoDatabaseError (FATAL:  role "wappa_api" does not exist
+Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:898:in `rescue in connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-07-05T00:09:28.709326 #13529]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:09:28 -0700
+F, [2015-07-05T00:09:28.718032 #13529] FATAL -- : 
+ActiveRecord::NoDatabaseError (FATAL:  role "wappa_api" does not exist
+Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:898:in `rescue in connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-07-05T00:09:32.819342 #13529]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:09:32 -0700
+F, [2015-07-05T00:09:32.827143 #13529] FATAL -- : 
+ActiveRecord::NoDatabaseError (FATAL:  role "wappa_api" does not exist
+Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:898:in `rescue in connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-07-05T00:09:38.336448 #13529]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-07-05 00:09:38 -0700
+F, [2015-07-05T00:09:38.343435 #13529] FATAL -- : 
+ActiveRecord::NoDatabaseError (FATAL:  role "wappa_api" does not exist
+Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:898:in `rescue in connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-07-05T00:09:38.558370 #13529]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2015-07-05 00:09:38 -0700
+F, [2015-07-05T00:09:38.570095 #13529] FATAL -- : 
+ActiveRecord::NoDatabaseError (FATAL:  role "wappa_api" does not exist
+Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:898:in `rescue in connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.7) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.7) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.7) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.7) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-07-05T00:10:54.362048 #13583]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-07-05 00:10:54 -0700
+F, [2015-07-05T00:10:54.376044 #13583] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-07-05T00:10:54.565771 #13583]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2015-07-05 00:10:54 -0700
+F, [2015-07-05T00:10:54.566629 #13583] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-07-05T00:10:58.930196 #13583]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-07-05 00:10:58 -0700
+F, [2015-07-05T00:10:58.931547 #13583] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/timothychung/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-07-05T00:11:33.835558 #13583]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:11:33 -0700
+I, [2015-07-05T00:11:33.838496 #13583]  INFO -- : Processing by StacksController#endpoint as */*
+I, [2015-07-05T00:11:33.845665 #13583]  INFO -- : Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:11:35.351889 #13583]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:11:35 -0700
+I, [2015-07-05T00:11:35.352840 #13583]  INFO -- : Processing by StacksController#endpoint as */*
+I, [2015-07-05T00:11:35.353495 #13583]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:11:37.987240 #13583]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:11:37 -0700
+I, [2015-07-05T00:11:37.988985 #13583]  INFO -- : Processing by StacksController#endpoint as */*
+I, [2015-07-05T00:11:37.990120 #13583]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:11:39.508848 #13583]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:11:39 -0700
+I, [2015-07-05T00:11:39.510768 #13583]  INFO -- : Processing by StacksController#endpoint as */*
+I, [2015-07-05T00:11:39.511395 #13583]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:11:40.324285 #13583]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:11:40 -0700
+I, [2015-07-05T00:11:40.326857 #13583]  INFO -- : Processing by StacksController#endpoint as */*
+I, [2015-07-05T00:11:40.327598 #13583]  INFO -- : Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:11:41.457881 #13583]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:11:41 -0700
+I, [2015-07-05T00:11:41.472660 #13583]  INFO -- : Processing by StacksController#endpoint as */*
+I, [2015-07-05T00:11:41.473102 #13583]  INFO -- : Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:11:42.550088 #13583]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:11:42 -0700
+I, [2015-07-05T00:11:42.551759 #13583]  INFO -- : Processing by StacksController#endpoint as */*
+I, [2015-07-05T00:11:42.552665 #13583]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:13:12.126747 #13679]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:13:12 -0700
+I, [2015-07-05T00:13:12.152388 #13679]  INFO -- : Processing by StacksController#endpoint as */*
+I, [2015-07-05T00:13:12.160005 #13679]  INFO -- : Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:13:13.454052 #13679]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:13:13 -0700
+I, [2015-07-05T00:13:13.455211 #13679]  INFO -- : Processing by StacksController#endpoint as */*
+I, [2015-07-05T00:13:13.455640 #13679]  INFO -- : Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:13:14.439847 #13679]  INFO -- : Started GET "/try" for 127.0.0.1 at 2015-07-05 00:13:14 -0700
+I, [2015-07-05T00:13:14.442239 #13679]  INFO -- : Processing by StacksController#endpoint as */*
+I, [2015-07-05T00:13:14.443182 #13679]  INFO -- : Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:21.576804 #13958]  INFO -- : Started GET "/analyze?url=http://www.benchmark.com" for 127.0.0.1 at 2015-07-05 00:19:21 -0700
+I, [2015-07-05T00:19:21.609458 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:21.609519 #13958]  INFO -- :   Parameters: {"url"=>"http://www.benchmark.com"}
+I, [2015-07-05T00:19:21.618505 #13958]  INFO -- : Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:22.935543 #13958]  INFO -- : Started GET "/analyze?url=http://www.benchmark.com" for 127.0.0.1 at 2015-07-05 00:19:22 -0700
+I, [2015-07-05T00:19:22.936489 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:22.936548 #13958]  INFO -- :   Parameters: {"url"=>"http://www.benchmark.com"}
+I, [2015-07-05T00:19:22.937414 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:24.429674 #13958]  INFO -- : Started GET "/analyze?url=http://www.benchmark.com" for 127.0.0.1 at 2015-07-05 00:19:24 -0700
+I, [2015-07-05T00:19:24.430628 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:24.430684 #13958]  INFO -- :   Parameters: {"url"=>"http://www.benchmark.com"}
+I, [2015-07-05T00:19:24.431632 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:33.147738 #13958]  INFO -- : Started GET "/analyze?url=http://www.bencmark.com" for 127.0.0.1 at 2015-07-05 00:19:33 -0700
+I, [2015-07-05T00:19:33.149854 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:33.149940 #13958]  INFO -- :   Parameters: {"url"=>"http://www.bencmark.com"}
+I, [2015-07-05T00:19:33.151694 #13958]  INFO -- : Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:34.117081 #13958]  INFO -- : Started GET "/analyze?url=http://www.bencmark.com" for 127.0.0.1 at 2015-07-05 00:19:34 -0700
+I, [2015-07-05T00:19:34.117948 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:34.118016 #13958]  INFO -- :   Parameters: {"url"=>"http://www.bencmark.com"}
+I, [2015-07-05T00:19:34.119127 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:34.897534 #13958]  INFO -- : Started GET "/analyze?url=http://www.bencmark.com" for 127.0.0.1 at 2015-07-05 00:19:34 -0700
+I, [2015-07-05T00:19:34.898789 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:34.898868 #13958]  INFO -- :   Parameters: {"url"=>"http://www.bencmark.com"}
+I, [2015-07-05T00:19:34.900300 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:36.880434 #13958]  INFO -- : Started GET "/analyze?url=http://www.bencmark.com" for 127.0.0.1 at 2015-07-05 00:19:36 -0700
+I, [2015-07-05T00:19:36.882552 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:36.882633 #13958]  INFO -- :   Parameters: {"url"=>"http://www.bencmark.com"}
+I, [2015-07-05T00:19:36.883523 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:38.207159 #13958]  INFO -- : Started GET "/analyze?url=http://www.bencmark.com" for 127.0.0.1 at 2015-07-05 00:19:38 -0700
+I, [2015-07-05T00:19:38.208606 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:38.208703 #13958]  INFO -- :   Parameters: {"url"=>"http://www.bencmark.com"}
+I, [2015-07-05T00:19:38.210982 #13958]  INFO -- : Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:41.001909 #13958]  INFO -- : Started GET "/analyze?url=http://www.bencmark.com" for 127.0.0.1 at 2015-07-05 00:19:41 -0700
+I, [2015-07-05T00:19:41.002992 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:41.003063 #13958]  INFO -- :   Parameters: {"url"=>"http://www.bencmark.com"}
+I, [2015-07-05T00:19:41.004232 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:41.777477 #13958]  INFO -- : Started GET "/analyze?url=http://www.bencmark.com" for 127.0.0.1 at 2015-07-05 00:19:41 -0700
+I, [2015-07-05T00:19:41.778480 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:41.778543 #13958]  INFO -- :   Parameters: {"url"=>"http://www.bencmark.com"}
+I, [2015-07-05T00:19:41.779523 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:42.516079 #13958]  INFO -- : Started GET "/analyze?url=http://www.bencmark.com" for 127.0.0.1 at 2015-07-05 00:19:42 -0700
+I, [2015-07-05T00:19:42.517113 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:42.517193 #13958]  INFO -- :   Parameters: {"url"=>"http://www.bencmark.com"}
+I, [2015-07-05T00:19:42.518751 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:43.158766 #13958]  INFO -- : Started GET "/analyze?url=http://www.bencmark.com" for 127.0.0.1 at 2015-07-05 00:19:43 -0700
+I, [2015-07-05T00:19:43.159889 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:43.159954 #13958]  INFO -- :   Parameters: {"url"=>"http://www.bencmark.com"}
+I, [2015-07-05T00:19:43.161068 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:45.869023 #13958]  INFO -- : Started GET "/analyze?url=http://www.becmark.com" for 127.0.0.1 at 2015-07-05 00:19:45 -0700
+I, [2015-07-05T00:19:45.869900 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:45.869992 #13958]  INFO -- :   Parameters: {"url"=>"http://www.becmark.com"}
+I, [2015-07-05T00:19:45.871031 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:47.023655 #13958]  INFO -- : Started GET "/analyze?url=http://www.becmark.com" for 127.0.0.1 at 2015-07-05 00:19:47 -0700
+I, [2015-07-05T00:19:47.024605 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:47.024678 #13958]  INFO -- :   Parameters: {"url"=>"http://www.becmark.com"}
+I, [2015-07-05T00:19:47.025466 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:47.917865 #13958]  INFO -- : Started GET "/analyze?url=http://www.becmark.com" for 127.0.0.1 at 2015-07-05 00:19:47 -0700
+I, [2015-07-05T00:19:47.919276 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:47.919508 #13958]  INFO -- :   Parameters: {"url"=>"http://www.becmark.com"}
+I, [2015-07-05T00:19:47.921399 #13958]  INFO -- : Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:50.886143 #13958]  INFO -- : Started GET "/analyze?url=http://www.bencmark.com" for 127.0.0.1 at 2015-07-05 00:19:50 -0700
+I, [2015-07-05T00:19:50.887154 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:50.887214 #13958]  INFO -- :   Parameters: {"url"=>"http://www.bencmark.com"}
+I, [2015-07-05T00:19:50.888098 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:52.056468 #13958]  INFO -- : Started GET "/analyze?url=http://www.bencmark.com" for 127.0.0.1 at 2015-07-05 00:19:52 -0700
+I, [2015-07-05T00:19:52.057363 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:52.057422 #13958]  INFO -- :   Parameters: {"url"=>"http://www.bencmark.com"}
+I, [2015-07-05T00:19:52.058410 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:56.682056 #13958]  INFO -- : Started GET "/analyze?url=http://www.benymark.com" for 127.0.0.1 at 2015-07-05 00:19:56 -0700
+I, [2015-07-05T00:19:56.682897 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:56.682952 #13958]  INFO -- :   Parameters: {"url"=>"http://www.benymark.com"}
+I, [2015-07-05T00:19:56.684349 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:58.564712 #13958]  INFO -- : Started GET "/analyze?url=http://www.benymark.com" for 127.0.0.1 at 2015-07-05 00:19:58 -0700
+I, [2015-07-05T00:19:58.566307 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:58.566443 #13958]  INFO -- :   Parameters: {"url"=>"http://www.benymark.com"}
+I, [2015-07-05T00:19:58.568249 #13958]  INFO -- : Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:19:59.755220 #13958]  INFO -- : Started GET "/analyze?url=http://www.benymark.com" for 127.0.0.1 at 2015-07-05 00:19:59 -0700
+I, [2015-07-05T00:19:59.756269 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:19:59.756330 #13958]  INFO -- :   Parameters: {"url"=>"http://www.benymark.com"}
+I, [2015-07-05T00:19:59.757107 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:20:03.676488 #13958]  INFO -- : Started GET "/analyze?url=http://www.ben.com" for 127.0.0.1 at 2015-07-05 00:20:03 -0700
+I, [2015-07-05T00:20:03.678376 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:20:03.678438 #13958]  INFO -- :   Parameters: {"url"=>"http://www.ben.com"}
+I, [2015-07-05T00:20:03.679461 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:20:05.193029 #13958]  INFO -- : Started GET "/analyze?url=http://www.ben.com" for 127.0.0.1 at 2015-07-05 00:20:05 -0700
+I, [2015-07-05T00:20:05.194039 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:20:05.194109 #13958]  INFO -- :   Parameters: {"url"=>"http://www.ben.com"}
+I, [2015-07-05T00:20:05.195752 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:20:22.133170 #13958]  INFO -- : Started GET "/analyze?url=http://www.ben.com" for 127.0.0.1 at 2015-07-05 00:20:22 -0700
+I, [2015-07-05T00:20:22.134149 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:20:22.134213 #13958]  INFO -- :   Parameters: {"url"=>"http://www.ben.com"}
+I, [2015-07-05T00:20:22.135124 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:20:24.218003 #13958]  INFO -- : Started GET "/analyze?url=http://www.ben.com" for 127.0.0.1 at 2015-07-05 00:20:24 -0700
+I, [2015-07-05T00:20:24.219116 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:20:24.219246 #13958]  INFO -- :   Parameters: {"url"=>"http://www.ben.com"}
+I, [2015-07-05T00:20:24.220211 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:20:36.209083 #13958]  INFO -- : Started GET "/analyze?url=http://www.rails.com" for 127.0.0.1 at 2015-07-05 00:20:36 -0700
+I, [2015-07-05T00:20:36.210240 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:20:36.210334 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rails.com"}
+I, [2015-07-05T00:20:36.211842 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:20:37.557055 #13958]  INFO -- : Started GET "/analyze?url=http://www.rails.com" for 127.0.0.1 at 2015-07-05 00:20:37 -0700
+I, [2015-07-05T00:20:37.557976 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:20:37.558069 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rails.com"}
+I, [2015-07-05T00:20:37.559317 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:20:39.560960 #13958]  INFO -- : Started GET "/analyze?url=http://www.rails.com" for 127.0.0.1 at 2015-07-05 00:20:39 -0700
+I, [2015-07-05T00:20:39.562591 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:20:39.562648 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rails.com"}
+I, [2015-07-05T00:20:39.563948 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:20:41.338170 #13958]  INFO -- : Started GET "/analyze?url=http://www.rails.com" for 127.0.0.1 at 2015-07-05 00:20:41 -0700
+I, [2015-07-05T00:20:41.339042 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:20:41.339158 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rails.com"}
+I, [2015-07-05T00:20:41.340864 #13958]  INFO -- : Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:20:42.986851 #13958]  INFO -- : Started GET "/analyze?url=http://www.rails.com" for 127.0.0.1 at 2015-07-05 00:20:42 -0700
+I, [2015-07-05T00:20:42.988092 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:20:42.988153 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rails.com"}
+I, [2015-07-05T00:20:42.989371 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:20:43.861054 #13958]  INFO -- : Started GET "/analyze?url=http://www.rails.com" for 127.0.0.1 at 2015-07-05 00:20:43 -0700
+I, [2015-07-05T00:20:43.869304 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:20:43.869398 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rails.com"}
+I, [2015-07-05T00:20:43.872030 #13958]  INFO -- : Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:21:15.638042 #13958]  INFO -- : Started GET "/analyze?url=http://www.rails.com" for 127.0.0.1 at 2015-07-05 00:21:15 -0700
+I, [2015-07-05T00:21:15.639221 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:21:15.639304 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rails.com"}
+I, [2015-07-05T00:21:15.640122 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:21:18.269063 #13958]  INFO -- : Started GET "/analyze?url=http://www.rails.com" for 127.0.0.1 at 2015-07-05 00:21:18 -0700
+I, [2015-07-05T00:21:18.272042 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:21:18.272146 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rails.com"}
+I, [2015-07-05T00:21:18.273069 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:21:19.001437 #13958]  INFO -- : Started GET "/analyze?url=http://www.rails.com" for 127.0.0.1 at 2015-07-05 00:21:19 -0700
+I, [2015-07-05T00:21:19.004369 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:21:19.004454 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rails.com"}
+I, [2015-07-05T00:21:19.005428 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:21:25.601603 #13958]  INFO -- : Started GET "/analyze?url=http://www.rail.com" for 127.0.0.1 at 2015-07-05 00:21:25 -0700
+I, [2015-07-05T00:21:25.602532 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:21:25.602599 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rail.com"}
+I, [2015-07-05T00:21:25.603955 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:21:28.379391 #13958]  INFO -- : Started GET "/analyze?url=http://www.rail.com" for 127.0.0.1 at 2015-07-05 00:21:28 -0700
+I, [2015-07-05T00:21:28.380713 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:21:28.380797 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rail.com"}
+I, [2015-07-05T00:21:28.381997 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:21:30.148544 #13958]  INFO -- : Started GET "/analyze?url=http://www.rail.com" for 127.0.0.1 at 2015-07-05 00:21:30 -0700
+I, [2015-07-05T00:21:30.149584 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:21:30.149645 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rail.com"}
+I, [2015-07-05T00:21:30.150457 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:21:30.763059 #13958]  INFO -- : Started GET "/analyze?url=http://www.rail.com" for 127.0.0.1 at 2015-07-05 00:21:30 -0700
+I, [2015-07-05T00:21:30.764028 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:21:30.764088 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rail.com"}
+I, [2015-07-05T00:21:30.765096 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:21:31.016993 #13958]  INFO -- : Started GET "/analyze?url=http://www.rail.com" for 127.0.0.1 at 2015-07-05 00:21:31 -0700
+I, [2015-07-05T00:21:31.018572 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:21:31.018652 #13958]  INFO -- :   Parameters: {"url"=>"http://www.rail.com"}
+I, [2015-07-05T00:21:31.019534 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:21:57.019653 #13958]  INFO -- : Started GET "/analyze?url=http://www.railsss.com" for 127.0.0.1 at 2015-07-05 00:21:57 -0700
+I, [2015-07-05T00:21:57.021933 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:21:57.021998 #13958]  INFO -- :   Parameters: {"url"=>"http://www.railsss.com"}
+I, [2015-07-05T00:21:57.023150 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:21:58.846599 #13958]  INFO -- : Started GET "/analyze?url=http://www.railsss.com" for 127.0.0.1 at 2015-07-05 00:21:58 -0700
+I, [2015-07-05T00:21:58.847654 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:21:58.847735 #13958]  INFO -- :   Parameters: {"url"=>"http://www.railsss.com"}
+I, [2015-07-05T00:21:58.848815 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:00.737273 #13958]  INFO -- : Started GET "/analyze?url=http://www.railsss.com" for 127.0.0.1 at 2015-07-05 00:22:00 -0700
+I, [2015-07-05T00:22:00.742207 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:00.742377 #13958]  INFO -- :   Parameters: {"url"=>"http://www.railsss.com"}
+I, [2015-07-05T00:22:00.743894 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:03.667684 #13958]  INFO -- : Started GET "/analyze?url=http://www.railss.com" for 127.0.0.1 at 2015-07-05 00:22:03 -0700
+I, [2015-07-05T00:22:03.668529 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:03.668598 #13958]  INFO -- :   Parameters: {"url"=>"http://www.railss.com"}
+I, [2015-07-05T00:22:03.669564 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:04.318241 #13958]  INFO -- : Started GET "/analyze?url=http://www.railss.com" for 127.0.0.1 at 2015-07-05 00:22:04 -0700
+I, [2015-07-05T00:22:04.319050 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:04.319122 #13958]  INFO -- :   Parameters: {"url"=>"http://www.railss.com"}
+I, [2015-07-05T00:22:04.320257 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:05.346511 #13958]  INFO -- : Started GET "/analyze?url=http://www.railss.com" for 127.0.0.1 at 2015-07-05 00:22:05 -0700
+I, [2015-07-05T00:22:05.347426 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:05.347481 #13958]  INFO -- :   Parameters: {"url"=>"http://www.railss.com"}
+I, [2015-07-05T00:22:05.349077 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:07.291041 #13958]  INFO -- : Started GET "/analyze?url=http://www.railss.com" for 127.0.0.1 at 2015-07-05 00:22:07 -0700
+I, [2015-07-05T00:22:07.293388 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:07.293450 #13958]  INFO -- :   Parameters: {"url"=>"http://www.railss.com"}
+I, [2015-07-05T00:22:07.294190 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:10.293490 #13958]  INFO -- : Started GET "/analyze?url=http://www.railss.com" for 127.0.0.1 at 2015-07-05 00:22:10 -0700
+I, [2015-07-05T00:22:10.294586 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:10.294688 #13958]  INFO -- :   Parameters: {"url"=>"http://www.railss.com"}
+I, [2015-07-05T00:22:10.296318 #13958]  INFO -- : Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:10.799979 #13958]  INFO -- : Started GET "/analyze?url=http://www.railss.com" for 127.0.0.1 at 2015-07-05 00:22:10 -0700
+I, [2015-07-05T00:22:10.801517 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:10.801604 #13958]  INFO -- :   Parameters: {"url"=>"http://www.railss.com"}
+I, [2015-07-05T00:22:10.803535 #13958]  INFO -- : Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:11.143978 #13958]  INFO -- : Started GET "/analyze?url=http://www.railss.com" for 127.0.0.1 at 2015-07-05 00:22:11 -0700
+I, [2015-07-05T00:22:11.145189 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:11.145270 #13958]  INFO -- :   Parameters: {"url"=>"http://www.railss.com"}
+I, [2015-07-05T00:22:11.147273 #13958]  INFO -- : Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:11.384004 #13958]  INFO -- : Started GET "/analyze?url=http://www.railss.com" for 127.0.0.1 at 2015-07-05 00:22:11 -0700
+I, [2015-07-05T00:22:11.385972 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:11.386085 #13958]  INFO -- :   Parameters: {"url"=>"http://www.railss.com"}
+I, [2015-07-05T00:22:11.387860 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:11.613348 #13958]  INFO -- : Started GET "/analyze?url=http://www.railss.com" for 127.0.0.1 at 2015-07-05 00:22:11 -0700
+I, [2015-07-05T00:22:11.614166 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:11.614223 #13958]  INFO -- :   Parameters: {"url"=>"http://www.railss.com"}
+I, [2015-07-05T00:22:11.615290 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:17.089516 #13958]  INFO -- : Started GET "/analyze?url=http://www.nginx.com" for 127.0.0.1 at 2015-07-05 00:22:17 -0700
+I, [2015-07-05T00:22:17.091839 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:17.091961 #13958]  INFO -- :   Parameters: {"url"=>"http://www.nginx.com"}
+I, [2015-07-05T00:22:17.093221 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:17.551848 #13958]  INFO -- : Started GET "/analyze?url=http://www.nginx.com" for 127.0.0.1 at 2015-07-05 00:22:17 -0700
+I, [2015-07-05T00:22:17.553295 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:17.553374 #13958]  INFO -- :   Parameters: {"url"=>"http://www.nginx.com"}
+I, [2015-07-05T00:22:17.555423 #13958]  INFO -- : Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:18.068472 #13958]  INFO -- : Started GET "/analyze?url=http://www.nginx.com" for 127.0.0.1 at 2015-07-05 00:22:18 -0700
+I, [2015-07-05T00:22:18.069580 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:18.069671 #13958]  INFO -- :   Parameters: {"url"=>"http://www.nginx.com"}
+I, [2015-07-05T00:22:18.070646 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:19.043802 #13958]  INFO -- : Started GET "/analyze?url=http://www.nginx.com" for 127.0.0.1 at 2015-07-05 00:22:19 -0700
+I, [2015-07-05T00:22:19.044620 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:19.044689 #13958]  INFO -- :   Parameters: {"url"=>"http://www.nginx.com"}
+I, [2015-07-05T00:22:19.045518 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:19.694749 #13958]  INFO -- : Started GET "/analyze?url=http://www.nginx.com" for 127.0.0.1 at 2015-07-05 00:22:19 -0700
+I, [2015-07-05T00:22:19.695741 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:19.695803 #13958]  INFO -- :   Parameters: {"url"=>"http://www.nginx.com"}
+I, [2015-07-05T00:22:19.697010 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:22.285987 #13958]  INFO -- : Started GET "/analyze?url=http://www.nginx.com" for 127.0.0.1 at 2015-07-05 00:22:22 -0700
+I, [2015-07-05T00:22:22.287056 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:22.287113 #13958]  INFO -- :   Parameters: {"url"=>"http://www.nginx.com"}
+I, [2015-07-05T00:22:22.287916 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:23.008272 #13958]  INFO -- : Started GET "/analyze?url=http://www.nginx.com" for 127.0.0.1 at 2015-07-05 00:22:23 -0700
+I, [2015-07-05T00:22:23.009700 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:23.009783 #13958]  INFO -- :   Parameters: {"url"=>"http://www.nginx.com"}
+I, [2015-07-05T00:22:23.010821 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:31.510575 #13958]  INFO -- : Started GET "/analyze?url=http://www.google.com" for 127.0.0.1 at 2015-07-05 00:22:31 -0700
+I, [2015-07-05T00:22:31.511987 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:31.512145 #13958]  INFO -- :   Parameters: {"url"=>"http://www.google.com"}
+I, [2015-07-05T00:22:31.513489 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:34.649852 #13958]  INFO -- : Started GET "/analyze?url=http://www.google.com" for 127.0.0.1 at 2015-07-05 00:22:34 -0700
+I, [2015-07-05T00:22:34.652465 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:34.652648 #13958]  INFO -- :   Parameters: {"url"=>"http://www.google.com"}
+I, [2015-07-05T00:22:34.653590 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:35.691848 #13958]  INFO -- : Started GET "/analyze?url=http://www.google.com" for 127.0.0.1 at 2015-07-05 00:22:35 -0700
+I, [2015-07-05T00:22:35.692803 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:35.692880 #13958]  INFO -- :   Parameters: {"url"=>"http://www.google.com"}
+I, [2015-07-05T00:22:35.693736 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:45.890025 #13958]  INFO -- : Started GET "/analyze?url=http://www.zappos.com" for 127.0.0.1 at 2015-07-05 00:22:45 -0700
+I, [2015-07-05T00:22:45.891034 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:45.891100 #13958]  INFO -- :   Parameters: {"url"=>"http://www.zappos.com"}
+I, [2015-07-05T00:22:45.892317 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T00:22:47.188487 #13958]  INFO -- : Started GET "/analyze?url=http://www.zappos.com" for 127.0.0.1 at 2015-07-05 00:22:47 -0700
+I, [2015-07-05T00:22:47.189392 #13958]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T00:22:47.189476 #13958]  INFO -- :   Parameters: {"url"=>"http://www.zappos.com"}
+I, [2015-07-05T00:22:47.190731 #13958]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T01:05:46.073569 #14516]  INFO -- : Started GET "/analyze?url=https://github.com/resdis/redis-rb" for 127.0.0.1 at 2015-07-05 01:05:46 -0700
+I, [2015-07-05T01:05:46.102331 #14516]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T01:05:46.102456 #14516]  INFO -- :   Parameters: {"url"=>"https://github.com/resdis/redis-rb"}
+I, [2015-07-05T01:05:46.111782 #14516]  INFO -- : Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T01:05:50.380768 #14516]  INFO -- : Started GET "/analyze?url=https://github.com/rbesdis/redis-rb" for 127.0.0.1 at 2015-07-05 01:05:50 -0700
+I, [2015-07-05T01:05:50.381652 #14516]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T01:05:50.381707 #14516]  INFO -- :   Parameters: {"url"=>"https://github.com/rbesdis/redis-rb"}
+I, [2015-07-05T01:05:50.383394 #14516]  INFO -- : Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T01:06:18.444993 #14516]  INFO -- : Started GET "/analyze?url=https://github.com/rbesdis/redis-rb" for 127.0.0.1 at 2015-07-05 01:06:18 -0700
+I, [2015-07-05T01:06:18.446559 #14516]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T01:06:18.446622 #14516]  INFO -- :   Parameters: {"url"=>"https://github.com/rbesdis/redis-rb"}
+I, [2015-07-05T01:06:18.447756 #14516]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T01:06:23.483954 #14516]  INFO -- : Started GET "/analyze?url=https://github.com/rgbesdis/redis-rb" for 127.0.0.1 at 2015-07-05 01:06:23 -0700
+I, [2015-07-05T01:06:23.484898 #14516]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T01:06:23.484963 #14516]  INFO -- :   Parameters: {"url"=>"https://github.com/rgbesdis/redis-rb"}
+I, [2015-07-05T01:06:23.486701 #14516]  INFO -- : Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T01:06:39.652929 #14516]  INFO -- : Started GET "/analyze?url=https://github.com/rgbesdis/redis-rb" for 127.0.0.1 at 2015-07-05 01:06:39 -0700
+I, [2015-07-05T01:06:39.653968 #14516]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T01:06:39.654034 #14516]  INFO -- :   Parameters: {"url"=>"https://github.com/rgbesdis/redis-rb"}
+I, [2015-07-05T01:06:39.654943 #14516]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T01:06:40.874471 #14516]  INFO -- : Started GET "/analyze?url=https://github.com/rgbesdis/redis-rb" for 127.0.0.1 at 2015-07-05 01:06:40 -0700
+I, [2015-07-05T01:06:40.875888 #14516]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T01:06:40.876223 #14516]  INFO -- :   Parameters: {"url"=>"https://github.com/rgbesdis/redis-rb"}
+I, [2015-07-05T01:06:40.877796 #14516]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T01:06:41.520119 #14516]  INFO -- : Started GET "/analyze?url=https://github.com/rgbesdis/redis-rb" for 127.0.0.1 at 2015-07-05 01:06:41 -0700
+I, [2015-07-05T01:06:41.520972 #14516]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T01:06:41.521034 #14516]  INFO -- :   Parameters: {"url"=>"https://github.com/rgbesdis/redis-rb"}
+I, [2015-07-05T01:06:41.522057 #14516]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+I, [2015-07-05T01:06:42.060903 #14516]  INFO -- : Started GET "/analyze?url=https://github.com/rgbesdis/redis-rb" for 127.0.0.1 at 2015-07-05 01:06:42 -0700
+I, [2015-07-05T01:06:42.061726 #14516]  INFO -- : Processing by StacksController#get_stacks as */*
+I, [2015-07-05T01:06:42.061876 #14516]  INFO -- :   Parameters: {"url"=>"https://github.com/rgbesdis/redis-rb"}
+I, [2015-07-05T01:06:42.062994 #14516]  INFO -- : Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
